@@ -1,8 +1,8 @@
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="bg-red-600">
+    <div className="bg-red-60">
       <header className="App-header">
         <p>
           Edit <code>src/App.js</code> and save to reload.
