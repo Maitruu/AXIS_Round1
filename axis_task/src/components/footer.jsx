@@ -99,12 +99,12 @@ const footer = () => {
               FOR ASSOCIATION OPPORTUNITIES AND QUERIES REACH OUT TO US AT:{" "}
             </p>
           </div>
-          <div className="flex gap-5 justify-center mb-6">
-            <button className="bg-[#001233] mt-5 mb-5 p-3d rounded-full inline-flex items-center justify-center py-3 px-7 text-center text-base font-medium text-white hover:bg-[#00a4f9] hover:border-[#1B44C8]">
+          <div className="grid grid-cols-1 md:flex md:justify-center gap-5 justify-items-center mb-6">
+            <button className="bg-[#001233] h-24 md:mt-5 md:mb-5 p-3d rounded-full inline-flex items-center justify-center py-3 px-7 text-center text-base font-medium text-white hover:bg-[#00a4f9] hover:border-[#1B44C8]">
               admin@axis.vnit.ac.in
             </button>
-            <div className="bg-[#001233] rounded-full text-lg p-4">
-              <p>
+            <div className="bg-[#001233] rounded-full p-4 md:p-0 md:w-2/5 hover:bg-[#00a4f9] text-white">
+              <p className="text-md md:text-md font-semibold md:pt-10">
                 Student Activity center, Near <br /> Auditorium, VNIT,
                 Nagpur-440010
               </p>
