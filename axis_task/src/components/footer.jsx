@@ -113,7 +113,7 @@ const footer = () => {
         </div>
 
         {/* Copyright section */}
-        <div className="w-full bg-black/5 p-4 text-center ">
+        <div className="w-full bg-black p-4 text-center ">
           © 2024 Copyright: All Rights Reserved <br />
           <a class="font-semibold" href="https://axisvnit.in/">
             AXIS, VNIT

@@ -6,7 +6,7 @@ export default function ScrollToTopButton(){
     return(
         <div className="relative z-[300] ">
             <ScrollToTop showUnder={40}>
-                <img src={gif} alt="gif" className="w-28 -rotate-90"/>
+                <img src={gif} alt="gif" className="w-20 -rotate-90 sm:w-32 "/>
             </ScrollToTop>
         </div>
     )

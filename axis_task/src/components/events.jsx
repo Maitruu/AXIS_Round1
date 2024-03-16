@@ -7,8 +7,8 @@ import software from "../assets/software.gif";
 const events = () => {
   return (
     <>
-      <div className="bg-[url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/02e5d4125572941.611c0643888bb.gif')] bg-no-repeat bg-cover">
-        <h1 className="text-center text-3xl sm:text-6xl font-bold m-1 text-white">
+      <div className="bg-[url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/02e5d4125572941.611c0643888bb.gif')] bg-no-repeat bg-cover p-1">
+        <h1 className="text-center text-3xl sm:text-6xl font-bold text-white">
           Events
         </h1>
 
