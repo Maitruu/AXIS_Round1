@@ -4,6 +4,7 @@ import "./index.css";
 import Navbar from "./components/navbar";
 import Counter from "./components/counter";
 import LoadingScreen from "./components/loading";
+import Footer from "./components/footer";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -22,6 +23,7 @@ function App() {
     <>
       <Navbar />
       <Counter />
+      <Footer />
     </>
   );
 }

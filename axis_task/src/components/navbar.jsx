@@ -62,7 +62,7 @@ export default function Header() {
           </div>
         </section>
 
-        <ul className="DESKTOP-MENU hidden space-x-8 lg:flex text-white justify-center align-middle text-center">
+        <ul className="DESKTOP-MENU hidden space-x-8 lg:flex text-white justify-center items-center">
           <li>
             <a href="/about">Home</a>
           </li>
