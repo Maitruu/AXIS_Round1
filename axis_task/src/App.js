@@ -8,6 +8,7 @@ import Desk from "./components/desk";
 import Event from './components/events';
 import Footer from "./components/footer";
 import Hero from "./components/hero";
+import Scroll from './components/ScrollToTopBottom';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -30,6 +31,7 @@ function App() {
       <Counter />
       <Event />
       <Footer />
+      <Scroll />
     </>
   );
 }
