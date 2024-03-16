@@ -7,6 +7,7 @@ import Counter from "./components/counter";
 import Desk from "./components/desk";
 import Event from './components/events';
 import Footer from "./components/footer";
+import Hero from "./components/hero";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -24,8 +25,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <Counter />
+      <Hero />
       <Desk />
+      <Counter />
       <Event />
       <Footer />
     </>
