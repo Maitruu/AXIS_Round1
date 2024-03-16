@@ -7,13 +7,13 @@ import software from "../assets/software.gif";
 const events = () => {
   return (
     <>
-      <div className="bg-[url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/02e5d4125572941.611c0643888bb.gif')] bg-no-repeat bg-cover p-2 hover:bg-[url('https://i.pinimg.com/originals/c0/64/0c/c0640cd6d457349ee590188a4c58bd9d.gif')]">
+      <div className="bg-[url('https://i.pinimg.com/originals/62/26/43/6226435516042edfe1a4514a44e2023a.gif')] bg-no-repeat bg-cover p-2">
         <h1 className="text-center text-3xl sm:text-5xl font-bold text-white">
           Events
         </h1>
 
         <div className="grid grid-cols-1 justify-items-center md:grid-cols-2 lg:grid-cols-4 m-10">
-          <div className="grid grids-cols-1 justify-items-center rounded-xl m-5 w-2/3 lg:h-3/4 sm:w-3/4 bg-[url('https://www.niet.co.in/blog/wp-content/uploads/2020/09/robotics_Blog-1.jpg')] bg-cover backdrop-blur p-10 ">
+          <div className="grid grids-cols-1 justify-items-center rounded-xl m-5 w-2/3 lg:h-3/4 sm:w-3/4 bg-[url('https://www.niet.co.in/blog/wp-content/uploads/2020/09/robotics_Blog-1.jpg')] bg-cover p-10 shadow-[0_35px_60px_-15px_rgba(77,77,255,48)] ">
             <img
               className="sm:w-2/3 rounded-full object-contain bg-white border-[#33415C]  transition-all duration-300 delay-100"
               src={robogif}
@@ -30,7 +30,7 @@ const events = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 justify-items-center rounded-xl w-2/3 lg:h-3/4 sm:w-3/4 bg-[url('https://png.pngtree.com/thumb_back/fh260/background/20230617/pngtree-web-banner-3d-rendered-ui-for-seo-data-analytics-and-future-image_3618751.jpg')] bg-cover backdrop-blur m-5 p-10">
+          <div className="grid grid-cols-1 justify-items-center rounded-xl w-2/3 lg:h-3/4 sm:w-3/4 bg-[url('https://png.pngtree.com/thumb_back/fh260/background/20230617/pngtree-web-banner-3d-rendered-ui-for-seo-data-analytics-and-future-image_3618751.jpg')] bg-cover m-5 p-10 shadow-[0_35px_60px_-15px_rgba(77,77,255,48)]">
             <img
               className="sm:w-2/3 rounded-full object-contain bg-white border-[#33415C]  transition-all duration-300 delay-100"
               src={datagif}
@@ -47,7 +47,7 @@ const events = () => {
             </div>
           </div>
 
-          <div className=" grid grid-cols-1 justify-items-center rounded-xl gap-2 w-2/3 lg:h-3/4 sm:w-3/4 bg-[url('https://wallpapers.com/images/hd/construction-background-7t8pzcrvkc42exlu.jpg')] bg-cover backdrop-blur m-5 p-10">
+          <div className=" grid grid-cols-1 justify-items-center rounded-xl gap-2 w-2/3 lg:h-3/4 sm:w-3/4 bg-[url('https://wallpapers.com/images/hd/construction-background-7t8pzcrvkc42exlu.jpg')] bg-cover m-5 p-10 shadow-[0_35px_60px_-15px_rgba(77,77,255,48)]">
             <img
               className=" sm:w-2/3 rounded-full object-contain bg-white border-[#33415C]  transition-all duration-300 delay-100"
               src={constructgif}
@@ -64,7 +64,7 @@ const events = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 justify-items-center rounded-xl gap-2 w-2/3 lg:h-3/4 sm:w-3/4 bg-[url('https://5.imimg.com/data5/IJ/GK/MY-8776595/pcb-design-services-500x500.jpg')] bg-cover backdrop-blur m-5 p-10">
+          <div className="grid grid-cols-1 justify-items-center rounded-xl gap-2 w-2/3 lg:h-3/4 sm:w-3/4 bg-[url('https://5.imimg.com/data5/IJ/GK/MY-8776595/pcb-design-services-500x500.jpg')] bg-cover m-5 p-10 shadow-[0_35px_60px_-15px_rgba(77,77,255,48)]">
             <img
               className="sm:w-2/3 rounded-full object-contain bg-white border-[#33415C]  transition-all duration-300 delay-100"
               src={software}

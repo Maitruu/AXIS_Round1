@@ -11,7 +11,7 @@ const Hero = () => {
           alt=""
         />
         <img
-          className=" md:w-1/2 scale-x hover:scale-x-[-1] bg-[url('https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif')] bg-cover bg-no-repeat transition-all delay-100 duration-[5000ms]"
+          className=" md:w-1/2 scale-x hover:scale-x-[-1] bg-[url('https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif')] bg-cover bg-no-repeat transition-all delay-100 duration-[2500ms]"
           src={Axis}
           alt=""
         />

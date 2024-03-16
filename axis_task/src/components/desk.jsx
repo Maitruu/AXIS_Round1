@@ -10,7 +10,7 @@ const desk = () => {
         <h1 className="text-center text-2xl sm:text-4xl font-bold mb-1 text-white p-10">
           Director's Desk
         </h1>
-        <div className="grid grid-cols-1 justify-items-center lg:flex ">
+        <div className="grid grid-cols-1 justify-items-center lg:flex z-0 ">
           <img
             className="rounded-lg  p-10 md:w-2/3 lg:w-1/3 lg:m-10"
             src={Director}
