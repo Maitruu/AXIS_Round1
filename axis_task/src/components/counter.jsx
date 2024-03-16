@@ -8,6 +8,7 @@ import prize from "../assests/download2.png";
 const counter = () => {
   return (
     <>
+    {/* Counter 1 */}
       <div className="sm:flex gap-5 justify-evenly p-16 text-lg grid grid-cols-1 justify-items-center bg-[#979DAC]">
         <div className="grid grid-cols-1 bg-[#979DAC] w-48 h-48 justify-items-center p-5 rounded-lg font-semibold shadow-[0_35px_60px_-15px_rgba(0,24,69,48)]">
           <img src={events} alt="Events" width={80} />
@@ -16,6 +17,8 @@ const counter = () => {
           </span>
           <span>EVENTS</span>
         </div>
+
+        {/* counter 2 */}
         <div className="grid grid-cols-1 bg-[#979DAC] w-48 h-48 justify-items-center p-5 rounded-lg font-semibold shadow-[0_35px_60px_-15px_rgba(0,24,69,48)]">
           <span>
             <img src={college} alt="Events" width={80} />
@@ -23,6 +26,8 @@ const counter = () => {
           </span>
           <span>COLLEGES</span>
         </div>
+
+        {/* counter 3 */}
         <div className="grid grid-cols-1 bg-[#979DAC] w-48 h-48 justify-items-center p-5 rounded-lg font-semibold shadow-[0_35px_60px_-15px_rgba(0,24,69,48)]">
           <span>
             <img src={footfall} alt="Events" width={80} />
@@ -30,6 +35,8 @@ const counter = () => {
           </span>
           <span>FOOTFALLS</span>
         </div>
+
+        {/* counter 4 */}
         <div className="grid grid-cols-1 bg-[#979DAC] w-48 h-48 justify-items-center p-5 rounded-lg font-semibold shadow-[0_35px_60px_-15px_rgba(0,24,69,48)]">
           <span>
             <img src={prize} alt="prize" width={80} />

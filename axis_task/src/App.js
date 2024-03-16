@@ -27,8 +27,8 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Desk />
       <Counter />
+      <Desk />
       <Event />
       <Footer />
       <Scroll />

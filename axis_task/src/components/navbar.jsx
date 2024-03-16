@@ -12,6 +12,7 @@ export default function Header() {
       </a>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
+          {/* Hamburger Icon  */}
           <div
             className="HAMBURGER-ICON space-y-2"
             onClick={() => setIsNavOpen((prev) => !prev)}
@@ -39,6 +40,7 @@ export default function Header() {
                 <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
             </div>
+            {/* Elements in Hamburger menu */}
             <ul className="flex flex-col items-center justify-between min-h-[250px]">
               <li className="border-b border-gray-400 my-8 uppercase">
                 <a href="/about">Home</a>
@@ -62,6 +64,7 @@ export default function Header() {
           </div>
         </section>
 
+        {/* Navbar elements */}
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex text-white justify-center items-center">
           <li>
             <a href="/about">Home</a>
@@ -82,12 +85,14 @@ export default function Header() {
             <a href="/contact">Team</a>
           </li>
           <li>
-            <button className="bg-red-700 rounded-lg p-2 font-bold">
+            <button className="bg-red-600 rounded-lg p-2 font-bold hover:bg-red-700">
               Register
             </button>
           </li>
         </ul>
       </nav>
+
+      {/* Hamburger Menu Styling */}
       <style>{`
       .hideMenuNav {
         display: none;

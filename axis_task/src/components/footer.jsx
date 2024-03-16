@@ -3,15 +3,9 @@ import React from "react";
 const footer = () => {
   return (
     <>
-      {/* <div className="flex align items-center">
-            <div className="bg-red-500 col-md-1">a</div>
-            <div className="bg-blue-500 col-md-3">b</div>
-            <div className="bg-green-500 col-md-3">c</div>
-            <div className="bg-black col-md-3">d</div>
-        </div> */}
-      {/*  Footer section with social media icons and newsletter sign-up */}
+      {/*  Footer section with social media icons  */}
       <footer className="flex flex-col items-center bg-zinc-50 text-center text-surface dark:bg-neutral-700 dark:text-white">
-        <div className="mb-6 px-6 pt-6 text-xl">
+        <div className="mb-6 px-6 pt-6 text-2xl">
           <p>Connect with us below for more updates !!!</p>
         </div>
         <div className="container">
@@ -94,16 +88,17 @@ const footer = () => {
             </a>
           </div>
 
+          {/* Contact section */}
           <div className="mb-6">
             <p>
-              FOR ASSOCIATION OPPORTUNITIES AND QUERIES REACH OUT TO US AT:{" "}
+              FOR ASSOCIATION OPPORTUNITIES AND QUERIES REACH OUT TO US AT:
             </p>
           </div>
           <div className="grid grid-cols-1 md:flex md:justify-center gap-5 justify-items-center mb-6">
             <button className="bg-[#001233] h-24 md:mt-5 md:mb-5 p-3d rounded-full inline-flex items-center justify-center py-3 px-7 text-center text-base font-medium text-white hover:bg-[#00a4f9] hover:border-[#1B44C8]">
               admin@axis.vnit.ac.in
             </button>
-            <div className="bg-[#001233] rounded-full p-4 md:p-0 md:w-2/5 hover:bg-[#00a4f9] text-white">
+            <div className="bg-[#001233] rounded-full p-4 md:p-0 md:w-1/4 hover:bg-[#00a4f9] text-white">
               <p className="text-md md:text-md font-semibold md:pt-10">
                 Student Activity center, Near <br /> Auditorium, VNIT,
                 Nagpur-440010
