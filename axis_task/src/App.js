@@ -5,6 +5,9 @@ import Navbar from "./components/navbar";
 import Counter from "./components/counter";
 import LoadingScreen from "./components/loading";
 import Footer from "./components/footer";
+import Desk from "./components/desk";
+import Events from "./components/events";
+import Hero from "./components/hero";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -22,7 +25,10 @@ function App() {
   return (
     <>
       <Navbar />
+      <Hero />
+      <Desk />
       <Counter />
+      <Events />
       <Footer />
     </>
   );
