@@ -7,7 +7,7 @@ const desk = () => {
   return (
     <>
       <div className="bg-[#001845]">
-        <h1 className="text-center text-2xl sm:text-4xl font-bold mb-1 text-white">
+        <h1 className="text-center text-2xl sm:text-4xl font-bold mb-1 text-white p-10">
           Director's Desk
         </h1>
         <div className="grid grid-cols-1 justify-items-center lg:flex ">
