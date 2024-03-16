@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import "./index.css";
+import LoadingScreen from "./components/loading";
 import Navbar from "./components/navbar";
 import Counter from "./components/counter";
-import LoadingScreen from "./components/loading";
-import Footer from "./components/footer";
 import Desk from "./components/desk";
-import Events from "./components/events";
+import Event from './components/events';
+import Footer from "./components/footer";
 import Hero from "./components/hero";
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
       <Hero />
       <Desk />
       <Counter />
-      <Events />
+      <Event />
       <Footer />
     </>
   );

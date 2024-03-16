@@ -1,7 +1,7 @@
 import React from "react";
 import Director from "../assets/padolesir.jpg";
-import Avatar from "../assets/aipadole.jpg";
-import { ReactDOM } from "react";
+// import Avatar from "../assets/aipadole.jpg";
+// import { ReactDOM } from "react";
 
 const desk = () => {
   return (
