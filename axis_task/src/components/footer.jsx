@@ -95,7 +95,7 @@ const footer = () => {
             </p>
           </div>
           <div className="grid grid-cols-1 md:flex md:justify-center gap-5 justify-items-center mb-6">
-            <button className="bg-[#001233] h-24 md:mt-5 md:mb-5 p-3d rounded-full inline-flex items-center justify-center py-3 px-7 text-center text-base font-medium text-white hover:bg-[#00a4f9] hover:border-[#1B44C8]">
+            <button className="bg-[#001233] h-24 md:mt-5 md:mb-5 p-3d rounded-full inline-flex items-center justify-center py-3 px-7 text-center text-base font-medium text-white hover:bg-[#00a4f9] hover:border-[#1B44C8] shadow-none transition-shadow duration-300 ease-in-out hover:shadow-4-strong">
               admin@axis.vnit.ac.in
             </button>
             <div className="bg-[#001233] rounded-full p-4 md:p-0 md:w-1/4 hover:bg-[#00a4f9] text-white">

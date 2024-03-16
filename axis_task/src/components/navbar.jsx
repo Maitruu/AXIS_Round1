@@ -7,7 +7,7 @@ export default function Header() {
 
   return (
     <div className="flex items-center justify-around border-b border-gray-400 px-4 bg-[#023E7D] text-lg">
-      <a href="/">
+      <a href="https://axisvnit.in/">
         <img src={logo} alt="logo" width={140} />
       </a>
       <nav>
@@ -65,23 +65,23 @@ export default function Header() {
         </section>
 
         {/* Navbar elements */}
-        <ul className="DESKTOP-MENU hidden space-x-8 lg:flex text-white justify-center items-center">
-          <li>
+        <ul className="DESKTOP-MENU hidden space-x-8 lg:flex text-white justify-center items-center ">
+          <li className="hover:text-[#9ac4ef]">
             <a href="/about">Home</a>
           </li>
-          <li>
+          <li className="hover:text-[#9ac4ef]">
             <a href="/portfolio">Events</a>
           </li>
-          <li>
+          <li className="hover:text-[#9ac4ef]">
             <a href="/contact">CA Portal</a>
           </li>
-          <li>
+          <li className="hover:text-[#9ac4ef]">
             <a href="/contact">Sponsors</a>
           </li>
-          <li>
+          <li className="hover:text-[#9ac4ef]">
             <a href="/contact">Workshop</a>
           </li>
-          <li>
+          <li className="hover:text-[#9ac4ef]">
             <a href="/contact">Team</a>
           </li>
           <li>
