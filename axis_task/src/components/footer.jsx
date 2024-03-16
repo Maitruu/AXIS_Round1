@@ -100,12 +100,10 @@ const footer = () => {
             </p>
           </div>
           <div className="flex gap-5 justify-center mb-6">
-            <div className="bg-[#0466C8] rounded-full text-lg p-4 items-center justify-center text-center hover:bg-[#001233] md:mt-4">
-              <a href="mailto:admin@axisvnit.in">
-                <p>admin@axisvnit.in</p>
-              </a>
-            </div>
-            <div className="bg-[#0466C8] rounded-full text-lg p-4 hover:bg-[#001233]">
+            <button className="bg-[#001233] mt-5 mb-5 p-3d rounded-full inline-flex items-center justify-center py-3 px-7 text-center text-base font-medium text-white hover:bg-[#00a4f9] hover:border-[#1B44C8]">
+              admin@axis.vnit.ac.in
+            </button>
+            <div className="bg-[#001233] rounded-full text-lg p-4">
               <p>
                 Student Activity center, Near <br /> Auditorium, VNIT,
                 Nagpur-440010
