@@ -1,12 +1,34 @@
 import React from "react";
+import Director from "../assets/padolesir.jpg";
+import Avatar from "../assets/aipadole.jpg";
+import { ReactDOM } from "react";
 
 const desk = () => {
   return (
     <>
-      <h1>Director's Desk</h1>
-      <div className="bg-black flex">
-        <div className="bg-red-100"></div>
-        <div className="bg-slate-300"></div>
+      <div className="bg-[#001845]">
+        <h1 className="text-center text-4xl sm:text-6xl font-bold mb-1">
+          Director's Desk
+        </h1>
+        <div className="grid-cols-1 justify-items-center lg:flex ">
+          <img
+            className="rounded-lg  p-10  lg:w-1/3 lg:m-10"
+            src={Director}
+            alt=""
+          />
+          <div className="bg-slate-300 sm:m-10 p-10 lg:p-20">
+            <span className="text-lg">
+              I am elated to witness the diverse participation from universities
+              and schools nationwide in AXIS from last 24 years.Year after year,
+              AXIS continues to bridge the gap between technology and tech
+              enthusiasts. The competitions held during AXIS showcased some of
+              India's brightest minds, competing and surmounting challenges for
+              the betterment of society.I sincerely hope that AXIS continues its
+              upward trajectory, achieving new milestones with each passing year
+              and bringing honor to VNIT. My best wishes go out to AXIS.
+            </span>
+          </div>
+        </div>
       </div>
     </>
   );
