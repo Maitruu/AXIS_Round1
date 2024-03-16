@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import "./index.css";
+import LoadingScreen from "./components/loading";
 import Navbar from "./components/navbar";
 import Counter from "./components/counter";
-import LoadingScreen from "./components/loading";
+import Desk from "./components/desk";
+import Event from './components/events';
 import Footer from "./components/footer";
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
     <>
       <Navbar />
       <Counter />
+      <Desk />
+      <Event />
       <Footer />
     </>
   );
