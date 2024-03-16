@@ -6,7 +6,7 @@ export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="flex items-center justify-around border-b border-gray-400 px-4 bg-[#0466C8]">
+    <div className="flex items-center justify-around border-b border-gray-400 px-4 bg-[#023E7D] text-lg">
       <a href="/">
         <img src={logo} alt="logo" width={140} />
       </a>
