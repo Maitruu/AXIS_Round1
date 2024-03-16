@@ -95,16 +95,27 @@ const footer = () => {
           </div>
 
           <div className="mb-6">
-          <p>FOR ASSOCIATION OPPORTUNITIES AND QUERIES REACH OUT TO US AT: </p>
-        </div>
-        <div className="flex gap-5 justify-evenly mb-6">
-            <button><a href="">admin@axisvnit.in</a></button>
-            <button>b</button>
-        </div>
+            <p>
+              FOR ASSOCIATION OPPORTUNITIES AND QUERIES REACH OUT TO US AT:{" "}
+            </p>
+          </div>
+          <div className="flex gap-5 justify-center mb-6">
+            <div className="bg-[#0466C8] rounded-full text-lg p-4 items-center justify-center text-center md:mt-4">
+              <a href="mailto:admin@axisvnit.in">
+                <p>admin@axisvnit.in</p>
+              </a>
+            </div>
+            <div className="bg-[#0466C8] rounded-full text-lg p-4">
+              <p>
+                Student Activity center, Near <br /> Auditorium, VNIT,
+                Nagpur-440010
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* Copyright section */}
-        <div className="w-full bg-black/5 p-4 text-center">
+        <div className="w-full bg-black/5 p-4 text-center ">
           © 2024 Copyright: All Rights Reserved <br />
           <a class="font-semibold" href="https://axisvnit.in/">
             AXIS, VNIT

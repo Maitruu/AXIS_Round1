@@ -30,7 +30,7 @@ const events = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 justify-items-center rounded-xl w-2/3 lg:h-3/5 sm:w-3/4 bg-[url('https://png.pngtree.com/thumb_back/fh260/background/20230617/pngtree-web-banner-3d-rendered-ui-for-seo-data-analytics-and-future-image_3618751.jpg')] bg-cover backdrop-blur m-5 p-10">
+        <div className="grid grid-cols-1 justify-items-center rounded-xl w-2/3 h-3/4 sm:w-3/4 bg-[url('https://www.dnv.com/siteassets/images/dtc---data-analytics-and-data-science_1000x500.jpg?width=1288')] bg-cover backdrop-blur m-5 p-10">
           <img
             className="sm:w-2/3 rounded-full object-contain bg-white border-[#33415C] hover:w-3/4 transition-all duration-300 delay-100"
             src={datagif}
@@ -47,7 +47,7 @@ const events = () => {
           </div>
         </div>
 
-        <div className=" grid grid-cols-1 justify-items-center rounded-xl gap-2 w-2/3 lg:h-3/5 sm:w-3/4 bg-[url('https://img.freepik.com/premium-photo/write-blueprint-architecture-building_158236-89.jpg?size=626&ext=jpg')] bg-cover backdrop-blur m-5 p-10">
+        <div className=" grid grid-cols-1 justify-items-center rounded-xl gap-2 w-2/3 h-3/4 sm:w-3/4 bg-[url('https://online.stanford.edu/sites/default/files/styles/embedded_large/public/2020-03/virtual-design-construction_CEE341.jpg?itok=8anoz1_t')] bg-cover backdrop-blur m-5 p-10">
           <img
             className=" sm:w-2/3 rounded-full object-contain bg-white border-[#33415C] hover:w-3/4 transition-all duration-300 delay-100"
             src={constructgif}
@@ -64,7 +64,7 @@ const events = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 justify-items-center rounded-xl gap-2 w-2/3 lg:h-3/5 sm:w-3/4 bg-[url('https://5.imimg.com/data5/IJ/GK/MY-8776595/pcb-design-services-500x500.jpg')] bg-cover backdrop-blur m-5 p-10">
+        <div className="grid grid-cols-1 justify-items-center rounded-xl gap-2 w-2/3 h-3/4 sm:w-3/4 bg-[url('https://5.imimg.com/data5/IJ/GK/MY-8776595/pcb-design-services-500x500.jpg')] bg-cover backdrop-blur m-5 p-10">
           <img
             className="sm:w-2/3 rounded-full object-contain bg-white border-[#33415C] hover:w-3/4 transition-all duration-300 delay-100"
             src={software}
