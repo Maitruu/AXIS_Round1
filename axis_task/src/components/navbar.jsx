@@ -1,14 +1,14 @@
 import React from "react";
 import { useState } from "react";
-import logo from'../assests/Axis.png';
+import logo from "../assests/Axis.png";
 
 export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="flex items-center justify-between border-b border-gray-400 px-4 bg-[#023e7d]">
+    <div className="flex items-center justify-around border-b border-gray-400 px-4 bg-[#023e7d]">
       <a href="/">
-        <img src={logo} alt="logo" width={130} />
+        <img src={logo} alt="logo" width={140} />
       </a>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
@@ -82,7 +82,9 @@ export default function Header() {
             <a href="/contact">Team</a>
           </li>
           <li>
-            <button className="bg-red-700 rounded-lg p-2 font-bold">Register</button>
+            <button className="bg-red-700 rounded-lg p-2 font-bold">
+              Register
+            </button>
           </li>
         </ul>
       </nav>
