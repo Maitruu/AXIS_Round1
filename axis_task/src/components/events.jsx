@@ -23,7 +23,7 @@ const events = () => {
               alt=""
             />
             <div className="grid grid-cols-1 justify-items-center">
-              <h1 className="animate-pulse font-semibold text-xl sm:text-2xl text-center pt-8 text-white">
+              <h1 className="font-semibold text-xl sm:text-2xl text-center pt-8 text-white">
                 Robotics & Automation
               </h1>
 
@@ -40,7 +40,7 @@ const events = () => {
               alt=""
             />
             <div className="grid grid-cols-1 justify-items-center">
-              <h1 className="animate-pulse font-semibold text-xl sm:text-2xl text-center pt-8 text-white">
+              <h1 className="font-semibold text-xl sm:text-2xl text-center pt-8 text-white">
                 Management & Analytics
               </h1>
 
@@ -57,7 +57,7 @@ const events = () => {
               alt=""
             />
             <div className="grid grid-cols-1 justify-items-center">
-              <h1 className="animate-pulse font-semibold text-xl sm:text-2xl text-center pt-5 text-white">
+              <h1 className="font-semibold text-xl sm:text-2xl text-center pt-5 text-white">
                 Construction & Design
               </h1>
 
@@ -74,7 +74,7 @@ const events = () => {
               alt=""
             />
             <div className="grid grid-cols-1 justify-items-center">
-              <h1 className="animate-pulse font-semibold text-xl sm:text-2xl text-center pt-5 text-white">
+              <h1 className="font-semibold text-xl sm:text-2xl text-center pt-5 text-white">
                 Software & Electronics
               </h1>
 

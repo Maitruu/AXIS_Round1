@@ -1,4 +1,5 @@
 import React from "react";
+import gif from '../assests/gif2.gif';
 
 const footer = () => {
   return (
@@ -89,10 +90,8 @@ const footer = () => {
           </div>
 
           {/* Contact section */}
-          <div className="mb-6">
-            <p>
-              FOR ASSOCIATION OPPORTUNITIES AND QUERIES REACH OUT TO US AT:
-            </p>
+          <div className="mb-6 ">
+            <p>FOR ASSOCIATION OPPORTUNITIES AND QUERIES REACH OUT TO US AT:</p>
           </div>
           <div className="grid grid-cols-1 md:flex md:justify-center gap-5 justify-items-center mb-6">
             <button className="bg-[#001233] h-24 md:mt-5 md:mb-5 p-3d rounded-full inline-flex items-center justify-center py-3 px-7 text-center text-base font-medium text-white hover:bg-[#00a4f9] hover:border-[#1B44C8] shadow-none transition-shadow duration-300 ease-in-out hover:shadow-4-strong">
@@ -108,11 +107,19 @@ const footer = () => {
         </div>
 
         {/* Copyright section */}
-        <div className="w-full bg-black p-4 text-center ">
-          © 2024 Copyright: All Rights Reserved <br />
-          <a class="font-semibold" href="https://axisvnit.in/">
-            AXIS, VNIT
-          </a>
+        <div className="w-full bg-black p-4 text-center flex">
+          {/* Below div to ask doubts about connecting it to the backend */}
+          <div className="w-1/3">
+            <a href="mailto:admin@axisvnit.in">
+              <img src={gif} alt="robot" className="w-20 sm:w-28 align-items-top" />
+            </a>
+          </div>
+          <div className="md:pt-6 md:px-4 md:text-lg">
+            © 2024 Copyright: All Rights Reserved <br />
+            <a class="font-semibold" href="https://axisvnit.in/">
+              AXIS, VNIT
+            </a>
+          </div>
         </div>
       </footer>
     </>
