@@ -32,15 +32,15 @@ const events = () => {
             </div>
           </div>
           {/* Card 2 */}
-          <div className="grid grid-cols-1 justify-items-center rounded-xl w-2/3 lg:h-3/4 sm:w-3/4 bg-[url('https://png.pngtree.com/thumb_back/fh260/background/20230617/pngtree-web-banner-3d-rendered-ui-for-seo-data-analytics-and-future-image_3618751.jpg')] bg-cover m-5 p-10 shadow-[0_35px_60px_-15px_rgba(77,77,255,48)]">
+          <div className="grid grid-cols-1 justify-items-center rounded-xl gap-2 w-2/3 lg:h-3/4 sm:w-3/4 bg-[url('https://5.imimg.com/data5/IJ/GK/MY-8776595/pcb-design-services-500x500.jpg')] bg-cover m-5 p-10 shadow-[0_35px_60px_-15px_rgba(77,77,255,48)]">
             <img
               className="sm:w-2/3 rounded-full object-contain bg-white border-[#33415C]  transition-all duration-300 delay-100"
-              src={robogif}
+              src={software}
               alt=""
             />
             <div className="grid grid-cols-1 justify-items-center">
-              <h1 className="font-semibold text-xl sm:text-2xl text-center pt-8 text-white">
-                Management & Analytics
+              <h1 className="font-semibold text-xl sm:text-2xl text-center pt-5 text-white">
+                Software & Electronics
               </h1>
 
               <button className="animate-bounce w-24 h-8 md:w-36 md:h-12 text-center text-sm rounded-full bg-[#002855] sm:text-md text-white font-semibold mt-5">
@@ -66,15 +66,15 @@ const events = () => {
             </div>
           </div>
           {/* Card 4 */}
-          <div className="grid grid-cols-1 justify-items-center rounded-xl gap-2 w-2/3 lg:h-3/4 sm:w-3/4 bg-[url('https://5.imimg.com/data5/IJ/GK/MY-8776595/pcb-design-services-500x500.jpg')] bg-cover m-5 p-10 shadow-[0_35px_60px_-15px_rgba(77,77,255,48)]">
+          <div className="grid grid-cols-1 justify-items-center rounded-xl w-2/3 lg:h-3/4 sm:w-3/4 bg-[url('https://png.pngtree.com/thumb_back/fh260/background/20230617/pngtree-web-banner-3d-rendered-ui-for-seo-data-analytics-and-future-image_3618751.jpg')] bg-cover m-5 p-10 shadow-[0_35px_60px_-15px_rgba(77,77,255,48)]">
             <img
               className="sm:w-2/3 rounded-full object-contain bg-white border-[#33415C]  transition-all duration-300 delay-100"
-              src={software}
+              src={robogif}
               alt=""
             />
             <div className="grid grid-cols-1 justify-items-center">
-              <h1 className="font-semibold text-xl sm:text-2xl text-center pt-5 text-white">
-                Software & Electronics
+              <h1 className="font-semibold text-xl sm:text-2xl text-center pt-8 text-white">
+                Management & Analytics
               </h1>
 
               <button className="animate-bounce w-24 h-8 md:w-36 md:h-12 text-center text-sm rounded-full bg-[#002855] sm:text-md text-white font-semibold mt-5">
