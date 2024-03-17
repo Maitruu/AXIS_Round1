@@ -1,6 +1,6 @@
 "use client";
 import ScrollToTop from "react-scroll-up"; //using react library 'react scroll up'
-import gif from "../assets/robotwave.gif";
+import gif from "../assets/robotwave.gif";// size issues
 
 export default function ScrollToTopButton() {
   return (
