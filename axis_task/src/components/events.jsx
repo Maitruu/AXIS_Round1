@@ -1,6 +1,5 @@
 import React from "react";
 import robogif from "../assets/robot-excited.gif";
-import datagif from "../assets/analytics.gif";
 import constructgif from "../assets/construct.gif";
 import software from "../assets/software.gif";
 
@@ -36,7 +35,7 @@ const events = () => {
           <div className="grid grid-cols-1 justify-items-center rounded-xl w-2/3 lg:h-3/4 sm:w-3/4 bg-[url('https://png.pngtree.com/thumb_back/fh260/background/20230617/pngtree-web-banner-3d-rendered-ui-for-seo-data-analytics-and-future-image_3618751.jpg')] bg-cover m-5 p-10 shadow-[0_35px_60px_-15px_rgba(77,77,255,48)]">
             <img
               className="sm:w-2/3 rounded-full object-contain bg-white border-[#33415C]  transition-all duration-300 delay-100"
-              src={datagif}
+              src={robogif}
               alt=""
             />
             <div className="grid grid-cols-1 justify-items-center">
